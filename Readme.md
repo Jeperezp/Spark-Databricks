@@ -1,8 +1,19 @@
-## Apache Spark Fundamentals
+![Spark Logo Tiny](https://files.training.databricks.com/images/databricks.png)
+
+## ![Spark Logo Tiny](https://files.training.databricks.com/images/105/logo_spark_tiny.png)Apache Spark Fundamentals
 
 Este repositorio contiene notebooks de Databricks con ejemplos y ejercicios para aprender los fundamentos de Apache Spark. Los notebooks están diseñados para ser ejecutados en la plataforma Databricks, pero también se pueden ejecutar localmente en un entorno de Spark. Los temas cubiertos incluyen la creación y manipulación de DataFrames, operaciones comunes de Spark, consultas SQL, y optimización de rendimiento.
 
-## Notebooks y Temas Cubiertos
+
+## ![Spark Logo Tiny](https://files.training.databricks.com/images/105/logo_spark_tiny.png)¿Qué es Apache Spark y por qué es útil?
+
+Apache Spark es un motor de procesamiento de datos de código abierto diseñado para el procesamiento de grandes volúmenes de datos en entornos distribuidos. Es ampliamente utilizado debido a su capacidad para procesar datos en paralelo y su alto rendimiento, superando a otros frameworks como MapReduce. Spark es especialmente valioso en análisis de grandes datos, machine learning, y procesamiento de flujo en tiempo real.
+
+Databricks es una plataforma basada en la nube que facilita el uso de Apache Spark. Proporciona un entorno fácil de usar con herramientas integradas para explorar datos, visualizarlos, y desarrollar modelos de machine learning, todo en un único entorno colaborativo. Al usar Databricks, se pueden ejecutar notebooks interactivamente, lo que permite realizar análisis de datos de manera eficiente y eficaz.
+
+
+
+## ![Spark Logo Tiny](https://files.training.databricks.com/images/105/logo_spark_tiny.png) Notebooks 
 
 Los notebooks incluidos en este repositorio son los siguientes:
 
@@ -15,7 +26,7 @@ Los notebooks incluidos en este repositorio son los siguientes:
 3. **Caso Práctico: Análisis de Poblaciones en Apache Spark**:
    - [03_Analisis_Poblaciones.dbc](03_Analisis_Poblaciones.dbc)
 
-### Fundamentos Spark
+### ![Spark Logo Tiny](https://files.training.databricks.com/images/105/logo_spark_tiny.png) Fundamentos Spark
 
 En este notebook, se cubren los conceptos y técnicas básicas de Apache Spark. Se trata de cómo crear y trabajar con **DataFrames**, que son la estructura principal para manejar datos en Spark. Los temas tratados incluyen:
 
@@ -33,47 +44,7 @@ En este notebook, se cubren los conceptos y técnicas básicas de Apache Spark. 
   - **GroupBy y Aggregations**: Agrupar datos por ciertas columnas y aplicar funciones agregadas como `sum()`, `avg()`, etc.
   - **Sort**: Ordenar los datos por una o más columnas.
   
-- **
-
-## Tabla de Contenidos
-
-1. [¿Qué es Apache Spark y por qué es útil?](#qué-es-apache-spark-y-por-qué-es-útil)
-2. [Notebooks y Temas Cubiertos](#notebooks-y-temas-cubiertos)
-    1. [Fundamentos Spark](#1-fundamentos-spark)
-    2. [Fundamentos Avanzados](#2-fundamentos-avanzados)
-    3. [Caso Práctico: Análisis de Poblaciones en Apache Spark](#3-caso-práctico-análisis-de-poblaciones-en-apache-spark)
-3. [Conclusión](#conclusión)
-
-## ¿Qué es Apache Spark y por qué es útil?
-
-Apache Spark es un motor de procesamiento de datos de código abierto diseñado para el procesamiento de grandes volúmenes de datos en entornos distribuidos. Es ampliamente utilizado debido a su capacidad para procesar datos en paralelo y su alto rendimiento, superando a otros frameworks como MapReduce. Spark es especialmente valioso en análisis de grandes datos, machine learning, y procesamiento de flujo en tiempo real.
-
-Databricks es una plataforma basada en la nube que facilita el uso de Apache Spark. Proporciona un entorno fácil de usar con herramientas integradas para explorar datos, visualizarlos, y desarrollar modelos de machine learning, todo en un único entorno colaborativo. Al usar Databricks, se pueden ejecutar notebooks interactivamente, lo que permite realizar análisis de datos de manera eficiente y eficaz.
-
-
-### 1. **Fundamentos Spark**
-
-En este notebook, se cubren los conceptos y técnicas básicas de Apache Spark. Se trata de cómo crear y trabajar con **DataFrames**, que son la estructura principal para manejar datos en Spark. Los temas tratados incluyen:
-
-- **Creación de DataFrames**: Cómo generar DataFrames a partir de diferentes fuentes de datos.
-- **Métodos comunes de DataFrames**:
-  - `count()`: Para contar el número de filas.
-  - `columns`: Para obtener los nombres de las columnas.
-  - `dtypes` y `schema`: Para obtener el tipo de datos y el esquema del DataFrame.
-  - `printSchema()`: Para visualizar el esquema del DataFrame.
-  
-- **Operaciones de transformación**:
-  - **Select**: Seleccionar columnas específicas de un DataFrame.
-  - **Filter**: Filtrar filas de acuerdo a condiciones.
-  - **Drop**: Eliminar columnas o filas.
-  - **GroupBy y Aggregations**: Agrupar datos por ciertas columnas y aplicar funciones agregadas como `sum()`, `avg()`, etc.
-  - **Sort**: Ordenar los datos por una o más columnas.
-  
-- **Joins**: Uso de diferentes tipos de joins (inner, outer, left, right) para combinar múltiples DataFrames.
-- **Trabajo con SQL**: Uso de SQL dentro de Spark para consultas de datos.
-- **Vistas Temporales**: Cómo crear vistas temporales para consultar datos usando SQL.
-
-### 2. **Fundamentos Avanzados**
+  ### ![Spark Logo Tiny](https://files.training.databricks.com/images/105/logo_spark_tiny.png) **Fundamentos Avanzados**
 
 En este segundo notebook, se profundiza en funciones avanzadas de Spark para optimizar el manejo de grandes volúmenes de datos. Algunos de los temas cubiertos incluyen:
 
@@ -89,7 +60,7 @@ En este segundo notebook, se profundiza en funciones avanzadas de Spark para opt
   - **SelectExpr**: Permite realizar expresiones más complejas en las columnas durante la selección.
   - **User Defined Functions (UDF)**: Cómo crear y usar funciones personalizadas en Spark.
 
-### 3. **Caso Práctico: Análisis de Poblaciones en Apache Spark**
+### ![Spark Logo Tiny](https://files.training.databricks.com/images/105/logo_spark_tiny.png)  **Caso Práctico: Análisis de Poblaciones en Apache Spark**
 
 En este notebook, se utiliza un archivo CSV de poblaciones para realizar un análisis práctico de datos en Apache Spark. Los pasos incluidos son:
 
